@@ -18,13 +18,28 @@ export function Chef() {
             <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black/30 via-transparent to-transparent pointer-events-none"></div>
             </div>
       
-            <div className="absolute top-6 left-6 glass-card rounded-2xl px-6 py-5 flex items-center gap-4 border border-primary/20 shadow-xl transition-all duration-500 hover:-translate-y-1">
-              <Award className="text-primary" size={22} />
-              <div>
-                <p className="text-secondary text-sm font-semibold">BEST CHEF</p>
-                <p className="text-muted-foreground text-xs">2019 – 2026</p>
-              </div>
-            </div>
+           <div className="
+absolute top-2 left-2 sm:top-8 sm:left-6
+flex items-center gap-3 sm:gap-4
+rounded-2xl
+px-4 py-3 sm:px-6 sm:py-5
+bg-black/60
+backdrop-blur-xl
+border border-primary/30
+shadow-[0_10px_30px_rgba(212,175,55,0.15)]
+">
+  <Award className="text-primary shrink-0" size={20} />
+
+  <div>
+   <p className="text-white text-xs sm:text-sm font-semibold">
+  BEST CHEF
+</p>
+
+<p className="text-white/70 text-[10px] sm:text-xs">
+  2019 – 2026
+</p>
+  </div>
+</div>
           </div>
         </Reveal>
 

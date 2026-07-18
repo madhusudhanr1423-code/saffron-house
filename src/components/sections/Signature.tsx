@@ -22,7 +22,7 @@ export function Signature() {
               whileHover={{ y: -6,
                 transition: { duration: 0.3}
                }}
-             className="group glass-card rounded-3xl overflow-hidden border border-white/10 transition-all duration-500 hover:border-primary/30 hover:shadow-[0_25px_70px_rgba(0,0,0,0.35)]"
+             className="group glass-card rounded-3xl overflow-hidden border border-white/15 transition-all duration-500 hover:border-primary/30 hover:shadow-[0_25px_70px_rgba(0,0,0,0.35)]"
             >
              <div className="overflow-hidden relative">
   <img

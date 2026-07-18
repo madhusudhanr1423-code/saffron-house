@@ -41,7 +41,7 @@ export function Navbar() {
       initial={{ y: -30, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
+      className={`fixed top-0 inset-x-0 z-100 transition-all duration-500 ${
         scrolled
   ? "py-3 bg-background/65 backdrop-blur-2xl border-b border-white/10 shadow-[0_10px_40px_rgba(0,0,0,0.25)]"
   : "py-6"
@@ -57,7 +57,7 @@ export function Navbar() {
           </span>
         </a>
 
-        <ul className="hidden md:flex items-center gap-9">
+        <ul className="hidden md:flex items-center gap-6 lg:gap-9">
           {NAV_LINKS.map((l) => (
             <li key={l.href}>
              <a
@@ -81,7 +81,7 @@ export function Navbar() {
           ))}
         </ul>
 
-        <a href="#reserve" className="hidden md:inline-flex btn-gold btn-gold-hover text-sm px-6">
+        <a href="#reserve" className="hidden md:inline-flex btn-gold btn-gold-hover text-sm px-4 lg:px-6">
           Book a Table
         </a>
 
@@ -101,7 +101,7 @@ export function Navbar() {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{duration: 0.35, ease: "easeInOut",}}
-            className="md:hidden overflow-hidden bg-background/85 backdrop-blur-xl border-t border-border"
+           className="absolute top-full left-0 w-full md:hidden overflow-hidden bg-background/95 backdrop-blur-xl border-t border-white/15 z-50"
           >
             <ul className="px-6 py-6 space-y-4">
               {NAV_LINKS.map((l) => (

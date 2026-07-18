@@ -14,7 +14,7 @@ export function FAQ() {
           {FAQS.map((f, i) => {
             const isOpen = open === i;
             return (
-              <div key={f.q} className="group glass-card rounded-2xl overflow-hidden border border-white/10 transition-all duration-500 hover:border-primary/30 hover:-translate-y-1">
+              <div key={f.q} className="group glass-card rounded-2xl overflow-hidden border border-white/15 transition-all duration-500 hover:border-primary/30 hover:-translate-y-1">
                 <button
                   onClick={() => setOpen(isOpen ? null : i)}
                   className="w-full flex items-center justify-between gap-4 px-7 py-6 text-left"

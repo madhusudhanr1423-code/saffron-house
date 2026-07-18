@@ -21,7 +21,7 @@ export function Contact() {
                 e.preventDefault();
                 setSent(true);
               }}
-              className="group glass-card rounded-3xl p-8 space-y-5 border border-white/10 transition-all duration-500 hover:border-primary/30 hover:shadow-[0_20px_60px_rgba(212,175,55,0.12)]"
+              className="group glass-card rounded-3xl p-8 space-y-5 border border-white/15 transition-all duration-500 hover:border-primary/30 hover:shadow-[0_20px_60px_rgba(212,175,55,0.12)]"
             >
               <div className="grid sm:grid-cols-2 gap-5">
                 <Field label="Full name" name="name" placeholder="Jane Doe" required />
@@ -52,16 +52,16 @@ export function Contact() {
               <div className="rounded-3xl overflow-hidden border border-primary/20 h-80 relative shadow-[0_20px_60px_rgba(0,0,0,0.35)]">
               <div className="overflow-hidden h-full">
                 <iframe
-                  title="Auréa location"
+                  title="Saffron House location"
                   src="https://www.openstreetmap.org/export/embed.html?bbox=2.3452%2C48.8534%2C2.3652%2C48.8634&layer=mapnik"
                   className="w-full h-full grayscale contrast-125 transition duration-700 hover:scale-[1.02]"
                   loading="lazy"
                 />
               </div>
               </div>
-              <InfoRow icon={MapPin} title="Address" text="27 Rue Saint-Louis, 75004 Paris" />
-              <InfoRow icon={Phone} title="Phone" text="+33 1 42 60 00 00" />
-              <InfoRow icon={Mail} title="Email" text="hello@aurea.dining" />
+              <InfoRow icon={MapPin} title="Address" text="18 MG Road Bengaluru, Karnataka 560001" />
+              <InfoRow icon={Phone} title="Phone" text="+91 7842431423" />
+              <InfoRow icon={Mail} title="Email" text="reservations@saffronhouse.in" />
             </div>
           </Reveal>
         </div>

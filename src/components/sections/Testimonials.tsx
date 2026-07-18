@@ -15,7 +15,7 @@ export function Testimonials() {
     <section className="py-28 px-6">
       <div className="max-w-4xl mx-auto text-center">
         <SectionHeading eyebrow="Guest Words" title="Kind words, softly spoken." />
-        <div className="glass-card rounded-3xl border border-white/10 p-10 md:p-14 relative min-h-[280px] flex items-center justify-center transition-all duration-500 hover:border-primary/30 hover:shadow-[0_25px_70px_rgba(0,0,0,0.35)]">
+        <div className="glass-card rounded-3xl border border-white/15 p-10 md:p-14 relative min-h-[280px] flex items-center justify-center transition-all duration-500 hover:border-primary/30 hover:shadow-[0_25px_70px_rgba(0,0,0,0.35)]">
         <div className="absolute top-6 left-8 text-8xl font-display text-primary/10 select-none pointer-events-none">
   "
 </div>

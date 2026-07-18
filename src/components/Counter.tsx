@@ -21,7 +21,7 @@ export function Counter({ to, suffix = "", duration = 1800 }: { to: number; suff
   }, [inView, to, duration]);
 
   return (
-    <motion.span ref={ref} className="text-gradient-gold font-display text-5xl md:text-6xl font-semibold tabular-nums">
+    <motion.span ref={ref} className="text-gradient-gold font-display text-4xl md:text-5xl font-semibold tabular-nums">
       {value.toLocaleString()}{suffix}
     </motion.span>
   );

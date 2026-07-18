@@ -88,7 +88,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:description",content:"Experience modern fine dining with seasonal tasting menus and handcrafted cuisine.",},
       { name: "twitter:image",content: "/og-image.png",},
       { property: "og:image",content: "/og-image.png",},
-      { property: "og:url",content: "https://aurea-restaurant.vercel.app",},
+      { property: "og:url",content: "https://saffron-house-one.vercel.app",},
       { property: "og:site_name",content: "Saffron House",},
       {name: "theme-color", content: "#0F0F0F",},
       {
@@ -107,7 +107,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" },
       {rel: "canonical",
-       href: "https://aurea-restaurant.vercel.app",
+       href: "https://saffron-house-one.vercel.app",
       },
     ],
   }),

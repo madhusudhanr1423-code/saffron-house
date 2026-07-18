@@ -45,7 +45,7 @@ export function Menu() {
             className="grid md:grid-cols-2 gap-x-14 gap-y-8"
           >
             {MENU[active].map((item) => (
-              <div key={item.name} className="group border-b border-white/10 pb-6 transition-all duration-300 hover:border-primary/30">
+              <div key={item.name} className="group border-b border-white/15 pb-6 transition-all duration-300 hover:border-primary/30">
                 <div className="flex items-center gap-4">
   <h3 className="font-display text-xl text-secondary transition-colors duration-300 group-hover:text-primary">
     {item.name}

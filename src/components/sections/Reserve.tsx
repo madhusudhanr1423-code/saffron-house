@@ -21,7 +21,7 @@ export function Reserve() {
       <Reveal className="relative z-10 max-w-4xl mx-auto text-center">
         <p className="text-primary uppercase tracking-[0.35em] text-xs mb-4">Reserve</p>
         <h2 className="font-display text-4xl md:text-6xl text-secondary font-semibold [text-shadow:0_4px_20px_rgba(0,0,0,0.4)]">
-          An evening at <span className="text-gradient-gold italic">Auréa</span> awaits.
+          An evening at <span className="text-gradient-gold italic">Saffron House</span> awaits.
         </h2>
         <div className="inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 mb-6">
   <Calendar size={14} className="text-primary" />

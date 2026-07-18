@@ -1,7 +1,7 @@
 export const NAV_LINKS = [
   { label: "Home", href: "#top"},
   { label: "About", href: "#about" },
-  { label: "Chef", href: "#chef" },
+  // { label: "Chef", href: "#chef" },
   { label: "Menu", href: "#menu" },
   { label: "Gallery", href: "#gallery" },
   { label: "Reserve", href: "#reserve" },
@@ -91,6 +91,14 @@ export const GALLERY = [
   {
     image: "/images/G8.jpg",
     title: "Curated Wine Collection",
+  },
+  {
+    image: "/images/G9.jpg",
+    title: "Culinary Craftsmanship",
+  },
+  {
+    image: "/images/G10.jpg",
+    title: "Artisanal Desserts",
   },
 ];
 

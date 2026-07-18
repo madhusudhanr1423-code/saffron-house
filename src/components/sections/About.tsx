@@ -30,7 +30,7 @@ export function About() {
             <img
               loading="lazy"
               src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80"
-              alt="Auréa dining room"
+              alt="Saffron House dining room"
              className="rounded-3xl w-full h-[560px] object-cover shadow-[0_25px_80px_rgba(0,0,0,0.45)] border border-primary/20 transition-all duration-700 group-hover:scale-[1.03]"
               />
             
@@ -70,7 +70,7 @@ export function About() {
             center={false}
             eyebrow="Our Story"
             title="Where quiet craft meets bold flavor."
-            subtitle="Founded in 2009, Auréa was created with a vision to redefine fine dining through seasonal ingredients, timeless techniques, and genuine hospitality. Every dish is carefully crafted to celebrate flavor, artistry, and the joy of sharing unforgettable moments around the table.">
+            subtitle="Founded in 2009, Saffron House was created with a vision to redefine fine dining through seasonal ingredients, timeless techniques, and genuine hospitality. Every dish is carefully crafted to celebrate flavor, artistry, and the joy of sharing unforgettable moments around the table.">
             </SectionHeading>
             <div>
   <div className="grid gap-5 mt-8">
@@ -80,9 +80,9 @@ export function About() {
     return (
       <div
         key={feature.title}
-        className="group flex items-start gap-5 rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-all duration-500 hover:border-primary/40 hover:bg-primary/5 hover:-translate-y-1"
+        className="group flex items-start gap-5 rounded-2xl border border-white/15 bg-white/[0.03] p-5 transition-all duration-500 hover:border-primary/40 hover:bg-primary/5 hover:-translate-y-1"
       >
-        <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/15 text-primary transition-transform duration-500 group-hover:scale-110">
+        <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/25 text-primary transition-transform duration-500 group-hover:scale-110">
           <Icon size={22} />
         </div>
 
@@ -101,11 +101,11 @@ export function About() {
 </div>
 </div>
           <Reveal delay={0.15}>
-            <div className="grid grid-cols-2 gap-6 mt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mt-8">
               {STATS.map((s) => (
-                <div key={s.label} className="group glass-card rounded-2xl p-6 border border-white/10 transition-all duration-500 hover:-translate-y-2 hover:border-primary/40 hover:shadow-[0_20px_50px_rgba(212,175,55,0.15)]" >
+                <div key={s.label} className="group glass-card rounded-2xl p-5 sm:p-6 border border-primary/20 transition-all duration-500 hover:-translate-y-2 hover:border-primary/40 hover:shadow-[0_20px_50px_rgba(212,175,55,0.15)]" >
                   <Counter to={s.value} suffix={s.suffix} />
-                  <p className="text-muted-foreground text-sm mt-2">{s.label}</p>
+                  <p className="text-muted-foreground text-sm mt-2 leading-relaxed">{s.label}</p>
                 </div>
               ))}
             </div>

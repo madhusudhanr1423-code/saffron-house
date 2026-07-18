@@ -8,7 +8,7 @@ export function Gallery() {
     <section id="gallery" className="py-28 px-6 bg-card/30">
       <div className="max-w-7xl mx-auto">
         <SectionHeading eyebrow="Gallery" title="A Glimpse Into Every Experience." />
-        <div className="grid grid-cols-2 md:grid-cols-4 auto-rows-[220px] gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 auto-rows-[180px]  gap-4">
           {GALLERY.map((item, i) => (
             <motion.div
               key={item.image}
@@ -30,7 +30,7 @@ export function Gallery() {
     {item.title}
   </h3>
 </div>
-              <div className="absolute top-5 right-5 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 backdrop-blur-md opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0 translate-y-2">
+              <div className="absolute top-5 right-5 flex h-10 w-10 items-center justify-center rounded-full bg-white/15 backdrop-blur-md opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0 translate-y-2">
                 <ArrowUpRight size={18} className="text-white" />
               </div>
             </motion.div>
