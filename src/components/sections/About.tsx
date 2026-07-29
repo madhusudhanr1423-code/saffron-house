@@ -31,7 +31,7 @@ export function About() {
               loading="lazy"
               src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80"
               alt="Saffron House dining room"
-             className="rounded-3xl w-full h-[560px] object-cover shadow-[0_25px_80px_rgba(0,0,0,0.45)] border border-primary/20 transition-all duration-700 group-hover:scale-[1.03]"
+             className="rounded-3xl w-full h-[560px] object-cover shadow-[0_25px_80px_rgba(0,0,0,0.45)] border border-primary/20 transition-all duration-500 group-hover:scale-[1.03]"
               />
             
             {/* <div className="absolute -bottom-8 -right-6 glass-card rounded-2xl p-6 max-w-[220px] hidden md:block">

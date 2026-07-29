@@ -3,7 +3,7 @@ export const NAV_LINKS = [
   { label: "About", href: "#about" },
   // { label: "Chef", href: "#chef" },
   { label: "Menu", href: "#menu" },
-  { label: "Gallery", href: "#gallery" },
+  // { label: "Gallery", href: "#gallery" },
   { label: "Reserve", href: "#reserve" },
   { label: "Contact", href: "#contact" },
 ];
@@ -151,5 +151,5 @@ export const STATS = [
   { value: 15, suffix: "+", label: "Years of Excellence" },
   { value: 4.9, suffix: "★", label: "Guest Rating" },
   { value: 48, suffix: "", label: "Signature Dishes" },
-  { value: 12000, suffix: "+", label: "Happy Guests" },
+  { value: 10000, suffix: "+", label: "Happy Guests" },
 ];

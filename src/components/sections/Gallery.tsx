@@ -15,14 +15,14 @@ export function Gallery() {
               initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.15 }}
-              transition={{ duration: 0.6, delay: (i % 4) * 0.08 }}
+              transition={{ duration: 0.5, delay: (i % 4) * 0.08 }}
               className={`group relative overflow-hidden rounded-3xl border border-white/10 transition-all duration-500 hover:border-primary/30 hover:shadow-[0_20px_60px_rgba(0,0,0,0.35)] ${i % 5 === 0 ? "row-span-2" : ""}`}
             >
               <img
                 loading="lazy"
                 src={item.image}
                 alt=""
-                className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-[1.04]"
+                className="w-full h-full object-cover transition-transform duration-[1000ms] group-hover:scale-[1.04]"
               />
               <div className="absolute inset-0 bg-black/10 transition-all duration-500 group-hover:bg-black/30"></div>
               <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-full transition-all duration-500 group-hover:translate-y-0">

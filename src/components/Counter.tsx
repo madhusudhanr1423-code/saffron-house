@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useInView, motion } from "framer-motion";
 
-export function Counter({ to, suffix = "", duration = 1800 }: { to: number; suffix?: string; duration?: number }) {
+export function Counter({ to, suffix = "", duration = 1600 }: { to: number; suffix?: string; duration?: number }) {
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, amount: 0.5 });
   const [value, setValue] = useState(0);

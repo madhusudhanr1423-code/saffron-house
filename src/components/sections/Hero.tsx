@@ -12,7 +12,7 @@ export function Hero() {
   style={{ backgroundImage: `url(${HERO_IMG})` }}
   initial={{ scale: 1.1 }}
   animate={{ scale: 1 }}
-  transition={{ duration: 8, ease: "easeOut" }}
+  transition={{ duration: 6, ease: "easeOut" }}
 />
       <div className="absolute inset-0 bg-black/55" aria-hidden />
       <div className="absolute inset-0" style={{ background: "var(--gradient-dark)" }} aria-hidden />
@@ -22,7 +22,7 @@ export function Hero() {
         className="absolute -top-24 -left-24 h-96 w-96 rounded-full blur-3xl opacity-30"
         style={{ background: "var(--gradient-gold)" }}
         animate={{ y: [0, 30, 0], x: [0, 20, 0] }}
-        transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
+        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
       />
       <motion.div
         aria-hidden

@@ -54,7 +54,7 @@ export function Contact() {
                 <iframe
                   title="Saffron House location"
                   src="https://www.openstreetmap.org/export/embed.html?bbox=2.3452%2C48.8534%2C2.3652%2C48.8634&layer=mapnik"
-                  className="w-full h-full grayscale contrast-125 transition duration-700 hover:scale-[1.02]"
+                  className="w-full h-full grayscale contrast-125 transition duration-500 hover:scale-[1.02]"
                   loading="lazy"
                 />
               </div>
