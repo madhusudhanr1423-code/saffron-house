@@ -49,7 +49,7 @@ shadow-[0_10px_30px_rgba(212,175,55,0.15)]
             Chef <span className="text-gradient-gold italic">Julien Moreau</span>
           </h2>
           <p className="mt-6 text-muted-foreground text-lg leading-relaxed">
-            With over 18 years of culinary expertise, Chef Arjun Malhotra blends India's rich traditions with modern gastronomy. Every dish at Saffron House is thoughtfully crafted using seasonal ingredients, refined techniques, and an unwavering passion for exceptional dining.
+            With over 17 years of culinary expertise, Chef Arjun Malhotra blends India's rich traditions with modern gastronomy. Every dish at Saffron House is thoughtfully crafted using seasonal ingredients, refined techniques, and an unwavering passion for exceptional dining.
           </p>
           <blockquote className="mt-10 border-l-4 border-primary pl-8 italic text-xl leading-relaxed text-secondary">
             "Cooking is memory made edible. I want every guest to leave carrying one."
