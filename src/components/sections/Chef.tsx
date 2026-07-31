@@ -36,7 +36,7 @@ shadow-[0_10px_30px_rgba(212,175,55,0.15)]
 </p>
 
 <p className="text-white/70 text-[10px] sm:text-xs">
-  2020 – 2026
+  2019 – 2026
 </p>
   </div>
 </div>
